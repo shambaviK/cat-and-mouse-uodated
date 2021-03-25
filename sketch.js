@@ -3,14 +3,12 @@ var cat,catImg1,catImg2,catImg3,catImg4
 var mouseImg1,mouseImg2,mouseImg3,mouseImg4;
 function preload() {
    catImg1=loadAnimation("images/cat1.png") ;
-   catImg2=loadAnimation("images/cat2.png");
-   catImg3=loadAnimation("images/cat3.png");
-   catImg4=loadAnimation("images/cat4.png");
+   catImg2=loadAnimation("images/cat2.png","images/cat3.png");
+   catImg3=loadAnimation("images/cat4.png");
    gardenImg=loadAnimation("images/garden.png");
    mouseImg1=loadAnimation("images/mouse1.png");
-   mouseImg2=loadAnimation("images/mouse2.png");
-   mouseImg3=loadAnimation("images/mouse3.png");
-   mouseImg4=loadAnimation("images/mouse4.png");
+   mouseImg2=loadAnimation("images/mouse2.png","images/mouse3.png");
+   mouseImg3=loadAnimation("images/mouse4.png");
    bg=loadImage("images/garden.png");
 
     
